@@ -12,7 +12,7 @@
         url: url,
         method: 'GET',
     }).done(function (result) {
-        console.log(result);
+        console.log('%c result', 'color: red',);
     }).fail(function (err) {
         throw err;
     });
